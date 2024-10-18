@@ -46,7 +46,7 @@
         android:id="@+id/animationView"
         android:layout_width="100dp"
         android:layout_height="300dp"
-        app:lottie_rawRes="@raw/persona"
+        app:lottie_rawRes="@raw/login"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:layout_constraintTop_toBottomOf="@+id/guideline2"
@@ -71,13 +71,13 @@
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log In"
+        android:text="ENTRAR"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contra"
         app:layout_constraintBottom_toBottomOf="@+id/guideline3"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#2ce4c3"
+        android:backgroundTint="#1A237E"
         android:layout_marginTop="20dp"/>
 
     <ImageView
@@ -88,7 +88,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

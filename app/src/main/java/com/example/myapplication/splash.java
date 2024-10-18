@@ -24,7 +24,7 @@ public class splash extends AppCompatActivity {
         new CountDownTimer( 5000,  1000) {
             @Override
             public void onTick(long millisUntilFinished){
-                countdownTextView.setText("Segundos: " + millisUntilFinished / 1000);
+                countdownTextView.setText("Cargando...");
             }
 
             @Override
